@@ -32,7 +32,7 @@ while True:
     if user_input.lower() in ["exit", "quit", "bye"]:
         print("Chatbot: Goodbye!")
         break
-    
+    #hiiiiiiiiiii
     try:
         response = chat.send_message(user_input)
         print("Chatbot:", response.text)
